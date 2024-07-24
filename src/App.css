@@ -4,7 +4,6 @@
   padding: 2rem;
   text-align: center;
 }
-
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -17,7 +16,6 @@
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
-
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
@@ -26,21 +24,80 @@
     transform: rotate(360deg);
   }
 }
-
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
 }
 
+.App {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
 .card {
   padding: 2em;
 }
 
-.read-the-docs {
-  color: #888;
-}
-
 .icon-large {
   font-size: 3rem;
+}
+
+.skill-card {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.skill-card .mr-4 {
+  margin-top: 0.3rem;
+}
+
+.text-2xl {
+  text-align: center;
+  margin-right: 3rem;
+  font-size: 20px;
+}
+
+.text-lg {
+  text-align: center;
+  margin-right: 3rem;
+  font-size: 15px;
+}
+
+// Estilizando foto
+.header {
+  text-align: center;
+  margin: 20px;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+// Estilizando as redes sociais
+.links-social {
+  align-items: center;
+}
+
+.social-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.social-links li {
+  margin: 10px 0;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #007acc;
+}
+
+.link-click {
+color: #007acc;
 }
